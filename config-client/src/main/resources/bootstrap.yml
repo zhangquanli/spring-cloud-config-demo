@@ -1,5 +1,7 @@
+# 服务端口
 server:
   port: 8882
+# 注册中心
 eureka:
   client:
     service-url:
