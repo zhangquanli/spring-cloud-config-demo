@@ -1,5 +1,5 @@
 server:
-  port: 8881
+  port: 8882
 eureka:
   client:
     service-url:
@@ -14,3 +14,17 @@ spring:
       discovery:
         enabled: true
         service-id: config-server
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+    username: guest
+    password: guest
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
