@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8889
 eureka:
   client:
     service-url:
@@ -12,7 +12,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/
-          search-paths: respo
+          uri: https://github.com/zhangquanli/spring-cloud-config-demo
+          search-paths: config
           username:
           password:
