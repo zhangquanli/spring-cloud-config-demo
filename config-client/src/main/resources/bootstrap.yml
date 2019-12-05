@@ -1,6 +1,6 @@
 # 服务端口
 server:
-  port: 8882
+  port: 8881
 # 注册中心
 eureka:
   client:
